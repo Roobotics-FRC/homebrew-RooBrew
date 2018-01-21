@@ -79,7 +79,7 @@ class Opencv3classic < Formula
   depends_on "openni" => :optional
   depends_on "openni2" => :optional
   depends_on :python => :recommended unless OS.mac? && MacOS.version > :snow_leopard
-  depends_on :python3 => :optional
+  depends_on "python3" => :optional
   depends_on "qt" => :optional
   depends_on "tbb" => :optional
   depends_on "vtk" => :optional
